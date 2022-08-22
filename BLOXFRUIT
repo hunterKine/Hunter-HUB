@@ -2150,7 +2150,7 @@ game:GetService("Players").LocalPlayer.Idled:connect(function()
     game:GetService("VirtualUser"):Button2Up(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
 end)
 --------------------------------------------------------------------
-local RenUi = library:CreateWindow("Hunter HUB",Color3.fromRGB(255,51,51),"Blox Fruits")
+local RenUi = library:CreateWindow("Hunter",Color3.fromRGB(255,51,51),"Blox Fruits")
 --------------------------------------------------------------------
 local Main = RenUi:AddTab("Main")
 local Combat = RenUi:AddTab("Combat")
